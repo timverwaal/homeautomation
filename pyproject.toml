@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "homeautomation"
+version = "0.1.0"
+description = ""
+authors = ["Tim Verwaal <tim@gradyent.ai>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "*"
+influxdb = "^5.3.2"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
